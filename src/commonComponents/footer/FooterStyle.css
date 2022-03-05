@@ -1,0 +1,40 @@
+.footerSection{
+    background-color: black;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footerData{
+    display: inline-flex !important;
+    color: white !important;
+}
+.headings{
+    color: white;
+    font-size: 18px;
+}
+.footerLists{
+    list-style-type: none;
+    line-height: 3;
+}
+.footerText{
+    font-size: 13px;
+    color: #426161;
+}
+.followSection{
+    text-align: center;
+}
+.follwerImages{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.copyrightSection{
+    height: auto;
+    padding: 2px;
+    background-color: #D3404D !important;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+}

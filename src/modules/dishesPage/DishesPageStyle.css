@@ -1,0 +1,22 @@
+
+
+.dishesContainer{
+    margin-top: 70px;
+}
+
+.dishesHeading{
+    color: #D3404D;
+    border-bottom: 1px solid #D3404D;
+}
+ .root{
+    flex-grow: 1;
+    margin-top: 10px;
+ }
+
+ @media only screen and (max-width: 568px) {
+    .loader{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

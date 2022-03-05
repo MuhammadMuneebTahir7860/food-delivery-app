@@ -1,0 +1,29 @@
+
+
+.loadingContainer{
+    margin-top: 100px;
+    animation-name: movingBike;
+    animation-duration: 2.1s;
+}
+
+@media only screen and (max-width: 468px) {
+    .loadingContainer{
+        margin-top: 150px;
+        animation: none;
+        text-align: center;
+    }
+    .gif{
+        width: 250px;
+    }
+}
+
+@keyframes movingBike {
+    0%{
+         position:absolute;
+         right: 1000px;
+     }
+     100% {
+         position: absolute;
+         right:  0px; 
+     }
+   }
